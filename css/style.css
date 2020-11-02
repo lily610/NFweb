@@ -1,0 +1,268 @@
+@import url("https://www.cssfontstack.com/Arial%20Black");
+html{
+    background-color: #C5C1BC;
+    width: 1280px;
+    height: 940px;
+    box-sizing: border-box;
+    margin: auto;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+.container{
+    max-width: 1280px;
+    background-color: #C5C1BC;
+}
+/* header */
+.header{
+    max-width: 1280px;
+    max-height: 60px;
+    color:#B3AEAB;
+}
+.head-line{
+    max-width: 1280px;
+    max-height: 20px;
+    color:#5C5955;
+    margin: 0 22px 0 0;
+}
+
+/*.head-title{
+    position: absolute;
+    margin: 0;
+    margin: 42px 0 0 0;
+    display: block;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    width: 271px;
+    height: 42px;
+    color: #778A50;
+    font-size: 44px;
+    padding: 53px 0 0 0; 
+} 
+.top-contract{
+    display: flex;
+}*/
+.btn-img{
+    position: absolute  ;
+    display: flex;
+    width: 40.85px;
+    height: 30.85px;
+    margin: 61px 0 0 739px;
+}
+.btn-hompage{
+    margin: 10px 0 0 800px;
+}
+/*.line{
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    background-color: #778A50;
+    margin: 61px 0 0 809px;
+}*/
+.box-home{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778A50;
+    border-radius: 3px;
+    margin: 61px 820px 0 0px;
+}
+.box-porfolio{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778A50;
+    border-radius: 3px;
+    margin: 61px 820px 0 0px;
+}
+.box-contact{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778A50;
+    border-radius: 3px;
+    margin: 61px 820px 0 0px;
+}
+.login{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 14px;
+    color : #778A50;
+    text-align: center;
+    line-height: 25px;
+}
+.box-join{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    border: solid 1px #778A50;
+    border-radius: 3px;
+    margin: 61px 0 0 890px;
+}
+.porfolio{
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 14px;
+    color : #778A50;
+    text-align: center;
+    line-height: 25px;
+}
+/* content */
+.content-area{
+    display: flex;
+}
+
+.home:hover{
+    background-color: #778A50;
+    color: #EDF2C5;
+}
+.porfolio:hover{
+    background-color: #778A50;
+    color: #EDF2C5;
+}
+.contact:hover{
+    background-color: #778A50;
+    color: #EDF2C5;
+}
+.pro_pic{
+    position: absolute;
+    width: 940px;
+    height: 448px;
+    margin: 167px 160px 0 160px;
+}
+
+/* aside */
+.box-veg{
+    position: absolute;
+    width: 445px;
+    height: 45px;
+    background-color: #778A50;
+    margin: 645px 0 0 160px;
+    border-radius: 3px;
+}
+.title-veg{
+    position: absolute;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 14px 0 15px 30px;
+}
+
+.box-contact{
+    position: absolute;
+    width: 445px;
+    height: 45px;
+    background-color: #778A50;
+    margin: 645px 0 0 655px;
+    border-radius: 3px;
+}
+.title-contact{
+    position: absolute;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 14px 0 15px 30px;
+}
+.content-img{
+    position: absolute;
+    display: flex;
+    width: 140px;
+    height: 140px;
+    border: 3px;
+    margin: 250px 0 0 160px;
+}
+.img-self{
+    margin: 0 0 0 15px;
+}
+
+.contact-bg{
+    position: absolute;
+    width: 445px;
+    height: 140px;
+    background-color: #F7FBDA;
+    margin: 705px 0 0 655px;
+    border: 3px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.33;
+    font-size: 12px;
+    color: #7D7D7D;
+    margin: 16px 0 16px 15px;
+}
+.contact-line{
+    position: absolute;
+    background-color: #E5E5E5;
+    width: 414px;
+    height: 1px;
+    margin: 0px 0 15px 15px;
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #E5E5E5;
+    margin: 30px 0 16px 15px;
+    line-height: 1.83;
+}
+
+.footer{
+    width: 1280px;
+    height: 230px;
+    background-color: #857F7A;
+    margin-top: 900px;
+}
+
+.footer-box{
+    position: absolute   ;
+    display: flex;
+    width: 1280px;
+    height: 200px;
+    background-color: #857F7A;
+    margin-top: 0px;
+}
+.nav{
+    position: relative;
+    width: 940px;
+    height: 150px;
+    background-color: #778A50;
+    border-radius: 5px;
+    margin: 25px 0 0 160px;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+.nav-list{
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+.nav-list-item{
+    list-style: none;
+    margin-right: 60px;
+}
+.nav-list-item-link{
+    display: block;
+    color: #E5E5E5;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+
+}
+.last-footer-box{
+    position: absolute;
+    width: 1280px;
+    height: 30px;
+    background-color: #5C5955;
+    margin-top: 200px;
+}
+.footer-text{
+    position: absolute;
+    margin: 10px 0 0 479px;
+    color: #E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
