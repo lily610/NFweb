@@ -1,0 +1,127 @@
+html{
+    margin: auto;
+    width: 1440px;
+    height: 100%;
+    background-color:#E7E4E1;
+    
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body{
+    max-width: 1440px;
+    margin: 0;
+}
+header{
+    width: 1440px;
+    margin-top: 0;
+    background-image: url(/img/pic/header_bg.png);
+}
+.header_bg{
+    height: 153px;
+}
+.header_logo{
+    position: relative;
+    width: 156px;
+    height: 118px;
+    left: 50px;
+    top: 8px;
+    width: 156px;
+    height: 118px;
+}
+nav{
+    position: absolute;
+    width: 1440px;
+    height: 153px;
+    top: 0px;
+}
+.header_list{
+    position: relative;
+    width: 298px;
+    height: 73px;
+    left: 982px;
+    top: 52px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.header_list p{
+    
+    color:#E5E5E5;
+    width: 31px;
+    height: 73px;
+    writing-mode: vertical-rl;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+nav a{
+
+    text-decoration: none;
+}
+.header_list p:hover{
+    
+    background-color: #A84832 ;
+    color: #E5E5E5;
+}
+
+
+footer{
+    background-color: #E7E4E1;
+    position: absolute;
+    background-image: url("/img/pic/footer_bg.png");
+    height:208px;
+    width: 1280px ;
+}
+
+.footer_logo{
+    position: absolute;
+    right: 0;
+    left: 1106px;
+
+}
+.fb{
+    position: absolute;
+    right: 338px;
+    bottom: 50px;
+
+}
+.twitter{
+    position: absolute;
+    right: 268.16px;
+    bottom: 54px;
+
+}
+.ig{
+    position: absolute;
+    right: 196px;
+    bottom: 50px;
+}
+footer p{
+    position: absolute;
+    color: #E5E5E5;
+    margin: 0;
+    bottom:14px;
+    width: 395px;
+    height: 16px;
+    left: 442px;
+    top: 180px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
