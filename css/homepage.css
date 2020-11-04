@@ -137,14 +137,14 @@ nav a{
     position: relative;
     width: 111px;
     height: 20px;
-    left: 20px;
+    left: 16px;
     top: 4px;
     margin: 0px;
 
     font-family: GenJyuuGothic-Monospace-Regular;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 21px;
     display: flex;
     align-items: center;
@@ -157,7 +157,7 @@ nav a{
 .title_white_box{
     position: absolute;
     width: 95px;
-    height: 21px;
+    height: 30px;
     left: 23px;
     top: 0px;
 
@@ -166,9 +166,9 @@ nav a{
 .title_red_box{
     position: absolute;
     width: 94px;
-    height: 6px;
+    height: 10px;
     left: 43px;
-    top: 18px;
+    top: 23px;
 
     background: #EB5635;
 }
