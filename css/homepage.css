@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'GenJyuuGothic-Monospace-Regular';
+    src: url(../font/GenJyuuGothic-Monospace-Regular.woff) format("woff"),
+        url(../font/GenJyuuGothic-Monospace-Regular.ttf) format("truetype"),
+        url(../font/GenJyuuGothic-Monospace-Regular.eot) format("embedded-opentype");
+}
+
 html{
     margin: auto;
     width: 1280px;
@@ -43,7 +50,7 @@ nav{
     height: 73px;
     left: 982px;
     top: 52px;
-    font-family: Roboto;
+    font-family: GenJyuuGothic-Monospace-Regular;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -74,7 +81,7 @@ nav a{
 }
 .content-area{
     position: relative;
-    background-color: #E7E4E1;
+    background-color: #DCD6D0;
     width: 1280px;
     height: 1027px;
 
@@ -134,7 +141,7 @@ nav a{
     top: 4px;
     margin: 0px;
 
-    font-family: Roboto;
+    font-family: GenJyuuGothic-Monospace-Regular;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -187,7 +194,7 @@ nav a{
     top: 4px;
     margin: 0px;
 
-    font-family: Roboto;
+    font-family: GenJyuuGothic-Monospace-Regular;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -202,11 +209,72 @@ nav a{
 }
 .latest_img{
     position: absolute;
-    left: 213px;
+    left: 200px;
     top: 254px;
-    width: 853px;
-    height: 273px;
+    width: 909px;
+    height: 303px;
 }
+.stills{
+    width: 273px;
+    margin: 10px;
+    float: left;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.stills .plot{
+    width: 243px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    background-color: #708090;
+    opacity:0.8;
+    color: #DCD6D0;
+}
+
+.plot h2{
+    margin: 0 0 5px;
+    padding:0 0 5px;
+    color:#fff;
+    
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 14px;
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+}
+.plot p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.stills .link{
+    text-align:center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #ed4e6e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+}
+.stills:hover img{
+    transform: translateY(-50px);
+}
+.stills img{
+    transition: transform 0.4s;
+}
+.stills .plot{
+    transform: translateY(100%);
+    transition: transform 0.4s;
+
+}
+.stills:hover .plot{
+    transform: translateY(0px);
+}
+
 .zootopia{
     position: relative;
     width:273px; 
@@ -231,8 +299,7 @@ nav a{
 }
 .FuHua{
     position: relative;
-    left: 290px;
-    bottom: 273px;
+   
     width:273px; 
     height:273px;
     overflow:hidden;
@@ -255,8 +322,7 @@ nav a{
 }
 .nokk{
     position: relative;
-    left: 580px;
-    bottom: 546px;
+    
     width:273px; 
     height:273px;
     overflow:hidden;
@@ -279,7 +345,7 @@ nav a{
 }
 
 footer{
-    background-color: #E7E4E1;
+    background-color: #DCD6D0;
     position: absolute;
     background-image: url("/img/pic/footer_bg.png");
     height:208px;
