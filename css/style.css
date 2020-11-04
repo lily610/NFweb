@@ -1,9 +1,9 @@
-.html{
+html{
     margin: auto;
     width: 1280px;
     height: 100%;
     background-color:#E7E4E1;
-    box-sizing: border-box;
+    
 }
 *,
 *:before,
@@ -17,13 +17,13 @@ body{
 header{
     width: 1280px;
     margin-top: 0;
-    background-image: url(/pic/header_bg.png);
+    background-image: url(/img/pic/header_bg.png);
 }
 .header_bg{
     height: 153px;
 }
 .header_logo{
-    position: absolute;
+    position: relative;
     width: 156px;
     height: 118px;
     left: 50px;
@@ -35,8 +35,8 @@ header{
     position: relative;
     width: 298px;
     height: 73px;
-    left: 982px;
-    top: 52px;
+    margin: 0 0 28px 982px;
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -274,7 +274,7 @@ nav a{
 footer{
     background-color: #E7E4E1;
     position: absolute;
-    background-image: url("/pic/footer_bg.png");
+    background-image: url("/img/pic/footer_bg.png");
     height:208px;
     width: 1280px ;
 }
