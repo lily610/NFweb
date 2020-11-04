@@ -221,6 +221,7 @@ nav a{
     border: 5px solid #fff;
     overflow: hidden;
     position: relative;
+<<<<<<< HEAD
 }
 
 .stills .plot{
@@ -246,6 +247,33 @@ nav a{
     line-height: 14px;
     border-bottom: 1px solid rgba(255,255,255, 0.2);
 }
+=======
+}
+
+.stills .plot{
+    width: 243px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    background-color: #708090;
+    opacity:0.8;
+    color: #DCD6D0;
+}
+
+.plot h2{
+    margin: 0 0 5px;
+    padding:0 0 5px;
+    color:#fff;
+    
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 14px;
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+}
+>>>>>>> 7d31c06f03ea169ada2395d5910e79ecbf8b1594
 .plot p{
     font-size: 14px;
     margin-bottom: 5px;
