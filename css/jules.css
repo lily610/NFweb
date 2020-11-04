@@ -83,47 +83,22 @@ nav a{
     position: relative;
     background-color: #DCD6D0;
     width: 1280px;
-    height: 2250px;
+    height: 1800px;
 
 }
-.content-1{
-    position: absolute;
-    margin-top: 0px;
-    width: 1280px;
-    height: 1125px;
-}
-.content-img{
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 100px;
-    width: 1080px;
-    height: 909px;
-}
-.content-2{
-    position: absolute;
-    margin-top: 1109px;
-    width: 1280px;
-    height: 1125px;
-}
+
 .title1{
     position: absolute;
-    margin-top: 50px;
-    left: 100px;
-    width: 137px;
-    height: 24px;
-}
-.title2{
-    position: absolute;
-    margin-top: 50px;
-    left: 100px;
+    top: 50px;
+    left: 171px;
     width: 137px;
     height: 24px;
 }
 .title_text{
     position: relative;
-    width: 111px;
+    width: 140px;
     height: 20px;
-    left: 16px;
+    right: 0px;
     top: 4px;
     margin: 0px;
 
@@ -158,139 +133,55 @@ nav a{
 
     background: #EB5635;
 }
-
-.pTitle{
-    float: left;
-    position: relative;
-}
-
-.pTitle h2{
-    color:#000;
-    font-style: bold;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 14px;
-    border-bottom: 1px solid rgba(255,255,255, 0.2);
-    font-family: GenJyuuGothic-Monospace-Regular;
-}
-
-.stills{
-    width: 510px;
-    margin-top:20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
-    /*border: 5px solid #fff;*/
-    overflow: hidden;
-    position: relative;
-}
-
-.stills .plot{
-    width: 510px;
+.card img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.card {
     position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 15px;
-    background-color: #DBDBD5;
-    opacity:0.8;
-    color: #DCD6D0;
-    
+    width: 1000px;
+    margin: 100px 140px auto;
 }
 
-.plot h2{
-    margin-left: 200px;
-    color:#86817b;
-    font-style: bold;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 14px;
-    border-bottom: 1px solid rgba(255,255,255, 0.2);
+/* body{
+    background: url(http://insightreport.debeersgroup.com/_images/backgrounds/global-consumer-demand-bg.jpg);
+  }
+.container{
+    width: 900px;
+    margin: 0 auto;
+} */
+  /* .card{
+    /* 設定父親定位點 
+    position: relative;
+    width: 270px;
+    float:left;
+    margin: 10px;
+  } */
+  
+.info{
+  /*   display: none; */
+    opacity: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+.info p{
     font-family: GenJyuuGothic-Monospace-Regular;
-}
-
-.plot p{
-    font-size: 14px;
-    margin-bottom: 5px;
-    font-family: GenJyuuGothic-Monospace-Regular;
-    color:#86817b;
-}
-
-.plot a{
-    font-family: GenJyuuGothic-Monospace-Regular;
-}
-
-
-
-.stills .link{
-    margin-left: 200px;
-    text-align:center;
-    padding: 5px 10px;
-    border-radius: 2px;
-    display: inline-block;
-    background: #ed4e6e;
+    font-size: 30px;
     color: #fff;
-    text-decoration: none;
-    font-size: 10px;
+  }
+.info:hover{
+    transition: 500ms;
+    opacity: 1;
 }
-.stills:hover img{
-    transform:scale(1.2,1.2);;
-}
-.stills img{
-    transition: transform 0.4s;
-}
-.stills .plot{
-    transform: translateY(100%);
-    transition: transform 0.4s;
-    
-
-}
-.stills:hover .plot{
-    transform: translateY(0px);
-}
-.straight{
-    position: relative;
-    width:510px; 
-    height:273px;
-    overflow:hidden;
-}
-.straight img{
-    /*max-height: 100%;*/
-    max-width: 100%; 
-    width: auto;
-    height: auto;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;
-}
-
-.horizonal{
-    position: relative;
-    width:510px; 
-    height:273px;
-    overflow:hidden;
-}
-.horizonal img{
-    max-height: 100%;
-    /*max-width: 100%; */
-    width: auto;
-    height: auto;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;
-}
-.stills img{
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-
 
 footer{
     background-color: #DCD6D0;

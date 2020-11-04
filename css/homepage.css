@@ -83,7 +83,7 @@ nav a{
     position: relative;
     background-color: #DCD6D0;
     width: 1280px;
-    height: 1027px;
+    height: 1800px;
 
 }
 .top_img{
@@ -115,9 +115,9 @@ nav a{
 .middle_content{
     position: absolute;
     left: 0px;
-    top: 425pxpx;
+    top: 425px;
     width: 1280px;
-    height: 593px;
+    height: 1375px;
 }
 .top_dotted_line{
     position: absolute;
@@ -128,23 +128,23 @@ nav a{
 }
 .title1{
     position: absolute;
-    top: 25px;
+    top: 50px;
     left: 171px;
     width: 137px;
     height: 24px;
 }
-.title1_text{
+.title_text{
     position: relative;
     width: 111px;
     height: 20px;
-    left: 20px;
+    left: 16px;
     top: 4px;
     margin: 0px;
 
     font-family: GenJyuuGothic-Monospace-Regular;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 21px;
     display: flex;
     align-items: center;
@@ -154,39 +154,45 @@ nav a{
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.title1_white_box{
+.title_white_box{
     position: absolute;
     width: 95px;
-    height: 21px;
+    height: 30px;
     left: 23px;
     top: 0px;
 
     background: rgba(255, 255, 255, 0.8);
 }
-.title1_red_box{
+.title_red_box{
     position: absolute;
     width: 94px;
-    height: 6px;
+    height: 10px;
     left: 43px;
-    top: 18px;
+    top: 23px;
 
     background: #EB5635;
+}
+.video{
+    border: 5px solid #fff;
+    float: left;
+    margin-top: 95px ;
+    margin-left: 365px;
 }
 .middle_dotted_line{
     position: absolute;
     width: 900px;
     height: 2.43px;
     left: 190px;
-    top: 167px;
+    top: 450px;
 }
 .title2{
     position: absolute;
-    top: 197px;
+    top: 505px;
     left: 171px;
     width: 137px;
     height: 24px;
 }
-.title2_text{
+/* .title2_text{
     position: relative;
     width: 111px;
     height: 20px;
@@ -206,11 +212,11 @@ nav a{
     color: #918B84;
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 .latest_img{
     position: absolute;
     left: 200px;
-    top: 254px;
+    top: 550px;
     width: 909px;
     height: 303px;
 }
@@ -271,7 +277,7 @@ nav a{
     font-size: 10px;
 }
 .stills:hover img{
-    transform: translateY(-50px);
+    transform:scale(1.2,1.2);;
 }
 .stills img{
     transition: transform 0.4s;
@@ -303,11 +309,11 @@ nav a{
     left: 0;  
     right: 0;  
     margin: auto;
-    transform:scale(1,1);transition: all 1s ease-out;
+    /* transform:scale(1,1);transition: all 1s ease-out; */
 }
-.zootopia img:hover{
+/* .zootopia img:hover{
     transform:scale(1.2,1.2);
-}
+} */
 .FuHua{
     position: relative;
    
@@ -326,11 +332,11 @@ nav a{
     left: 0;  
     right: 0;  
     margin: auto;
-    transform:scale(1,1);transition: all 1s ease-out;
+    /* transform:scale(1,1);transition: all 1s ease-out; */
 }
-.FuHua img:hover{
+/* .FuHua img:hover{
     transform:scale(1.2,1.2);
-}
+} */
 .nokk{
     position: relative;
     
@@ -349,10 +355,51 @@ nav a{
     left: 0;  
     right: 0;  
     margin: auto;
-    transform:scale(1,1);transition: all 1s ease-out;
+    /* transform:scale(1,1);transition: all 1s ease-out; */
 }
-.nokk img:hover{
+.joyist{
+    position: relative;
+    
+    width:273px; 
+    height:273px;
+    overflow:hidden;
+}
+.joyist img{
+    /*max-height: 100%;*/
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    /* transform:scale(1,1);transition: all 1s ease-out; */
+}
+/* .nokk img:hover{
     transform:scale(1.2,1.2);
+} */
+.middle_dotted_line2{
+    position: absolute;
+    width: 900px;
+    height: 2.43px;
+    left: 190px;
+    top: 890px;
+}
+.title3{
+    position: absolute;
+    top: 940px;
+    left: 171px;
+    width: 137px;
+    height: 24px;
+}
+.case{
+    position: absolute;
+    left: 200px;
+    top: 990px;
+    width: 909px;
+    height: 303px;
 }
 
 footer{
