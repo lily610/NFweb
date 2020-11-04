@@ -1,6 +1,6 @@
 html{
     margin: auto;
-    width: auto;
+    width: 1280px;
     height: 100%;
     background-color:#E7E4E1;
     
@@ -11,11 +11,11 @@ html{
 	box-sizing: inherit;
 }
 body{
-    max-width: auto;
+    max-width: 1280px;
     margin: 0;
 }
 header{
-    width: auto;
+    width: 1280px;
     margin-top: 0;
     background-image: url(/img/pic/header_bg.png);
 }
@@ -75,7 +75,7 @@ nav a{
 .content-area{
     position: relative;
     background-color: #E7E4E1;
-    width: auto;
+    width: 1280px;
     height: 1027px;
 
 }
@@ -83,11 +83,10 @@ nav a{
     position: relative;
     left: 0px;
     top: 0px;
-    width: auto;
+    width: 1280px;
     height: 425px;
 }
 .pro_pic_bg{
-    
     width: 1280px;
     height: 425px;
 }
