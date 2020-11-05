@@ -24,7 +24,7 @@ body{
 header{
     width: 1280px;
     margin-top: 0;
-    background-image: url(/img/pic/header_bg.png);
+    background-image: url(../img/pic/header_bg.png);
 }
 .header_bg{
     height: 153px;
@@ -278,7 +278,7 @@ nav a{
 footer{
     background-color: #DCD6D0;
     position: absolute;
-    background-image: url("/img/pic/footer_bg.png");
+    background-image: url(../img/pic/footer_bg.png);
     height:208px;
     width: 1280px ;
 }
